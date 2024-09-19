@@ -5,3 +5,6 @@ email text,
   Id uuid,
   PRIMARY KEY (email)
 )
+INSERT INTO monsters_byfamily
+(email, id)
+VALUES (test@example.com, uuid())
